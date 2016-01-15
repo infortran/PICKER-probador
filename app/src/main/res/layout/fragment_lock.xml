@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="cl.picker.www.PickerProbador.LockFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/logo_lock"
+            style="@style/img_lock_logo"
+            android:layout_width="match_parent"
+            android:src="@drawable/logo"/>
+        <TextView
+            style="@style/lock_txt_contactar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contactar_vendedor"
+            android:layout_below="@+id/logo_lock"
+
+            />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.PickerProbador.Fragments.inicioTiendasFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondo">
+
+
+        <TextView
+            android:id="@+id/txt_seleccione_tienda"
+            style="@style/txt_un_paso_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seleccione_tienda"
+            android:textSize="75sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_cont_seleccione_tienda"
+            style="@style/txt_ingrese_ids_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_seleccione_tienda"
+            android:textSize="50sp"
+            android:text="@string/cont_seleccione_tienda" />
+
+
+        <!--EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/txt_id_tienda"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_id_picker"
+            android:drawableLeft="@drawable/tienda"
+            android:hint="@string/hint_id_tienda"/-->
+
+        <RelativeLayout
+            android:id="@+id/layout_tupla_tienda_select_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_cont_seleccione_tienda"
+            android:layout_marginTop="40dp"
+            android:background="#50ffffff">
+
+            <ImageView
+                android:id="@+id/img_tienda_select_picker"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"
+                android:layout_marginLeft="40dp"/>
+            <TextView
+                android:id="@+id/txt_nombre_tienda_select_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_tienda_select_picker"
+                android:text="nombre tienda"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/txt_cod_tienda_select_picker"
+                android:gravity="center"
+                android:textSize="45sp"/>
+
+            <TextView
+                android:id="@+id/txt_cod_tienda_select_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="COD001"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textSize="45sp"
+                />
+
+        </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_confirmar_select_picker"
+        android:background="@drawable/onpress_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_tupla_tienda_select_picker"
+        android:text="CONFIRMAR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_confirmar_select_picker"
+        android:text="Una vez confirmado este PICKER quedara asociado con esta tienda"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

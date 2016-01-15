@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.PickerProbador.RightBodyFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/txt_prod_rel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Productos relacionados"/>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/txt_prod_rel">
+            <ListView
+                android:id="@+id/lista_relacionados_dinamica"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+</FrameLayout>

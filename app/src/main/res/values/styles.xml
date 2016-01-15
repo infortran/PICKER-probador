@@ -1,0 +1,158 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/edittext_margin</item>
+        <item name="android:layout_marginRight">@dimen/edittext_margin</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="Button_iniciar" parent="ButtonStyle">
+        <item name="android:layout_marginTop">100dp</item>
+    </style>
+
+    <style name="txt_user_style">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_un_paso_style">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_ingrese_ids_style">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_listo_style">
+        <item name="android:textSize">150sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_al_comenzar_style">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_para_desb_style">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">100dp</item>
+    </style>
+
+    <style name="logo_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <style name="lock_txt_contactar">
+        <item name="android:textSize">50sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <style name="img_lock_logo">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_height">400dp</item>
+    </style>
+
+    <style name="img_logo_header">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="btnes_agregar_solicitar">
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_width">120dp</item>
+    </style>
+
+    <style name="btn_agregar_producto" parent="btnes_agregar_solicitar">
+
+    </style>
+
+    <style name="texto_btn_agregar_producto">
+
+        <item name="android:layout_width">120dp</item>
+
+    </style>
+
+    <style name="btn_solicitar_producto" parent="btnes_agregar_solicitar">
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+
+    <style name="texto_btn_solicitar_producto">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_width">120dp</item>
+    </style>
+
+    <style name="btn_hombre_mujer">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:textColor">#79dea7</item>
+    </style>
+
+    <style name="btn_mujer" parent="btn_hombre_mujer">
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <style name="btn_hombre" parent="btn_hombre_mujer">
+
+    </style>
+
+    <style name="input_busqueda">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">270dp</item>
+    </style>
+
+    <style name="picker_icon">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="num_txt_productos_header">
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="num_productos_header" parent="num_txt_productos_header">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="txt_productos_header">
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

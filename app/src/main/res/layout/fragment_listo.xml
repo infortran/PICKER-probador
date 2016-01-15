@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.PickerProbador.ListoFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondo">
+
+        <TextView
+            android:id="@+id/listo_txt"
+            style="@style/txt_listo_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_listo"/>
+        <TextView
+            android:id="@+id/al_comenzar_txt"
+            style="@style/txt_al_comenzar_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listo_txt"
+            android:text="@string/string_al_comenzar"/>
+        <TextView
+            android:id="@+id/correo_user_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/al_comenzar_txt"
+            android:text="correo@ejemplo.com"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/boton_iniciar"
+            style="@style/Button_iniciar"
+            android:background="@drawable/onpress_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar"
+            android:layout_below="@+id/al_comenzar_txt"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            />
+        <TextView
+            android:id="@+id/para_desb_txt"
+            style="@style/txt_para_desb_style"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_para_desb"/>
+    </RelativeLayout>
+
+</FrameLayout>

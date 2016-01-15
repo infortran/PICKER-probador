@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.PickerProbador.HeaderFragment">
+
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/img_logo_horiz"
+            style="@style/img_logo_header"
+            android:src="@drawable/picker_horiz"/>
+
+        <Button
+            android:id="@+id/btn_hombre_picker"
+            style="@style/btn_hombre"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_logo_horiz"
+            android:text="@string/hombre"/>
+
+        <Button
+            android:id="@+id/btn_mujer_picker"
+            style="@style/btn_mujer"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_hombre_picker"
+            android:text="@string/mujer"/>
+
+        <EditText
+            style="@style/input_busqueda"
+            android:id="@+id/input_busqueda_picker"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_toRightOf="@id/btn_mujer_picker"
+            android:imeOptions="actionDone"/>
+        <ImageView
+            style="@style/picker_icon"
+            android:src="@drawable/little_search"
+            android:layout_toRightOf="@+id/input_busqueda_picker"/>
+
+        <TextView
+            style="@style/num_productos_header"
+            android:id="@+id/num_productos_carrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/productos_word"
+            android:text="0"/>
+        <ImageView
+            android:id="@+id/btn_bag_prod"
+            style="@style/picker_icon"
+            android:src="@drawable/little_bag"
+            android:layout_toLeftOf="@id/num_productos_carrito"/>
+        <TextView
+            style="@style/txt_productos_header"
+            android:id="@+id/productos_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/productos"/>
+    </RelativeLayout>
+
+
+
+</FrameLayout>

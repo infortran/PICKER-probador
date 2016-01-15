@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.PickerProbador.TallasProductoFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/titulo_tallas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tallas Disponibles"
+            android:textSize="19sp"/>
+        <LinearLayout
+            android:id="@+id/contenedor_tallas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/titulo_tallas">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

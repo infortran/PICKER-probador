@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PICKER</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+
+    <!--PALABRAS GENERALES-->
+    <string name="bienvenido">Bienvenido</string>
+
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="titulo_probador">PROBADOR</string>
+    <string name="boton_ingresar">INGRESAR</string>
+    <string name="hint_id_picker">ID de tu PICKER</string>
+    <string name="hint_id_tienda">ID de tu Tienda</string>
+    <string name="string_estamos">Estamos a un paso de comenzar</string>
+    <string name="boton_asociar">Asociar</string>
+    <string name="ingrese_ids">Ingrese el ID de su PICKER para comenzar la asociación</string>
+    <string name="seleccione_tienda">Enhorabuena</string>
+    <string name="cont_seleccione_tienda">Se ha detectado que este PICKER esta asociado a la siguiente tienda</string>
+
+    <string name="string_listo">Listo</string>
+    <string name="string_al_comenzar">Una vez que comience el equipo quedara bloqueado para que los usuarios no lo puedan intervenir</string>
+    <string name="string_para_desb">Para desbloquear su modulo presione el boton atras varias veces hasta que pida su contraseña de administrador</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="contactar_vendedor">Pregunte a un vendedor para activar el módulo</string>
+
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="productos">Productos</string>
+
+    <string name="descripcion">Descripción</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_picker">PickerActivity</string>
+    <string name="title_activity_lock">LockActivity</string>
+</resources>

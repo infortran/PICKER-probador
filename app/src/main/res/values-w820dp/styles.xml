@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="logo_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/edittext_margin</item>
+        <item name="android:layout_marginRight">@dimen/edittext_margin</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="Button_iniciar" parent="ButtonStyle">
+        <item name="android:layout_marginTop">80dp</item>
+    </style>
+
+    <style name="txt_listo_style">
+        <item name="android:textSize">100sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_al_comenzar_style">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="txt_para_desb_style">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">80dp</item>
+    </style>
+
+    <style name="txt_user_style">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_un_paso_style">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txt_ingrese_ids_style">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="lock_txt_contactar">
+        <item name="android:textSize">50sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+    <style name="img_lock_logo">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+</resources>

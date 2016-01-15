@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="cl.picker.www.PickerProbador.ConfigTiendaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondo">
+
+        <TextView
+            android:id="@+id/texto_usuario"
+            style="@style/txt_user_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="user"
+            android:gravity="center"
+            android:textSize="80sp"
+            />
+        <TextView
+            android:id="@+id/txt_estamos"
+            style="@style/txt_un_paso_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/texto_usuario"
+            android:text="@string/string_estamos"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/txt_ingrese_ids"
+            style="@style/txt_ingrese_ids_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_estamos"
+            android:text="@string/ingrese_ids"
+            />
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/txt_id_picker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_ingrese_ids"
+            android:drawableLeft="@drawable/tablet"
+            android:hint="@string/hint_id_picker"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/txt_id_tienda"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_id_picker"
+            android:drawableLeft="@drawable/tienda"
+            android:hint="@string/hint_id_tienda"/>
+        <Button
+            android:id="@+id/btn_asociar_ids"
+            style="@style/ButtonStyle"
+            android:background="@drawable/onpress_button"
+            android:layout_below="@+id/txt_id_tienda"
+            android:text="@string/boton_asociar"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:layout_marginTop="50dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

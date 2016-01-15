@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.PickerProbador.Fragments.CarritoFragment"
+    android:layout_margin="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <!--BARRA DE TITULOS-->
+        <RelativeLayout
+            android:id="@+id/barra_titulo_carrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carrito de compras"
+                android:textSize="40sp"/>
+        </RelativeLayout>
+
+
+
+        <!--PIE-->
+        <RelativeLayout
+            android:id="@+id/pie_carrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/word_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: $"
+                android:textSize="50sp"/>
+            <TextView
+                android:id="@+id/total_carrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/word_total"
+                android:text="100.000"
+                android:textSize="50sp" />
+            <Button
+                android:id="@+id/btn_checkout_carrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:text="CheckOut"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver a comprar"
+                android:layout_toLeftOf="@+id/btn_checkout_carrito"/>
+
+        </RelativeLayout>
+
+        <!--CUERPO-->
+        <RelativeLayout
+            android:id="@+id/cuerpo_carrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pie_carrito"
+            android:layout_below="@+id/barra_titulo_carrito"
+            android:layout_margin="30dp">
+            <ListView
+                android:id="@+id/lista_carrito"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

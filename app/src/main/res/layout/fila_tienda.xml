@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/nombre_tienda_fila"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nombre tienda"/>
+        <TextView
+            android:id="@+id/owner_tienda_fila"
+            android:textSize="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="owner tienda"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="2"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/cod_tienda_fila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cod001"
+            android:textSize="26sp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+</LinearLayout>

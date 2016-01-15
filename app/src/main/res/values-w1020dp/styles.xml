@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="logo_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+</resources>
